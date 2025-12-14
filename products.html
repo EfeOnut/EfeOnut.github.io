@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünlerimiz | KZY Ege Marine</title>
+    <meta name="description"
+        content="KZY Ege Marine ürünleri. Gemi yedek parçaları, teknik ekipmanlar ve daha fazlası.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="KZY Ege Marine Logo">
+                <span>KZYEGEMARINE</span>
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html#home" data-i18n="nav.home">Ana Sayfa</a></li>
+                    <li><a href="index.html#about" data-i18n="nav.about">Hakkımızda</a></li>
+                    <li><a href="index.html#services" data-i18n="nav.services">Hizmetlerimiz</a></li>
+                    <li><a href="products.html" class="active" data-i18n="nav.products">Ürünlerimiz</a></li>
+                    <li><a href="index.html#contact" data-i18n="nav.contact">İletişim</a></li>
+                    <li><button id="lang-switch" class="lang-btn">EN</button></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="products.title">Ürünlerimiz</h2>
+                    <p data-i18n="products.subtitle">Kaliteli ve sertifikalı gemi ekipmanları</p>
+                </div>
+                <!-- Placeholder for products content -->
+                <div class="gallery-grid" id="gallery-container">
+                    <!-- Gallery items will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>KZY EGE <span>MARINE</span></h3>
+                    <p data-i18n="footer.desc">Denizcilikte güven ve kalitenin adresi.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.links.title">Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html#home" data-i18n="nav.home">Ana Sayfa</a></li>
+                        <li><a href="index.html#about" data-i18n="nav.about">Hakkımızda</a></li>
+                        <li><a href="index.html#services" data-i18n="nav.services">Hizmetlerimiz</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">Ürünlerimiz</a></li>
+                        <li><a href="index.html#contact" data-i18n="nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4 data-i18n="footer.follow.title">Bizi Takip Edin</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2024 KZY Ege Marine. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

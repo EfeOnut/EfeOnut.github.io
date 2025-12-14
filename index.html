@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KZY Ege Marine | Gemi Tamir, Bakım ve Danışmanlık</title>
+    <meta name="description"
+        content="KZY Ege Marine, Tuzla İstanbul'da gemi tamir, bakım ve danışmanlık hizmetleri sunmaktadır. Gemi teknolojileri ve yedek parça konusunda güvenilir çözüm ortağınız.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="KZY Ege Marine Logo">
+                <span>KZYEGEMARINE</span>
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="nav.home">Ana Sayfa</a></li>
+                    <li><a href="#about" data-i18n="nav.about">Hakkımızda</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Hizmetlerimiz</a></li>
+                    <li><a href="products.html" data-i18n="nav.products">Ürünlerimiz</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+                    <li><button id="lang-switch" class="lang-btn">EN</button></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 data-i18n="hero.title">Denizcilik Sektöründe <br> Güvenilir Çözüm Ortağınız</h1>
+                <p data-i18n="hero.desc">Tuzla, İstanbul merkezli uzman kadromuzla gemi tamir, bakım, onarım ve
+                    danışmanlık hizmetleri
+                    sunuyoruz.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.contact">Bize Ulaşın</a>
+                    <a href="#services" class="btn btn-secondary" data-i18n="hero.services">Hizmetlerimiz</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="about.title">Hakkımızda</h2>
+                    <p data-i18n="about.subtitle">Tecrübe ve kalitenin buluştuğu nokta</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-i18n="about.text1">KZY Ege Marine olarak, İstanbul Tuzla Tersaneler Bölgesi'nin
+                            kalbinde, denizcilik sektörüne
+                            üstün hizmet kalitesiyle çözümler üretiyoruz. Yılların getirdiği tecrübe ve uzman
+                            kadromuzla, gemi teknolojileri, teknik ekipman tedariği, tamir ve bakım konularında
+                            armatörlerin ve işletmecilerin en güvenilir destekçisiyiz.</p>
+                        <p data-i18n="about.text2">Misyonumuz, denizcilik standartlarına uygun, güvenli, çevreye duyarlı
+                            ve hızlı çözümler
+                            sunarak iş ortaklarımızın operasyonel verimliliğini artırmaktır.</p>
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="feature.expert">Uzman Teknik
+                                    Kadro</span></li>
+                            <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="feature.support">7/24 Destek
+                                    ve Danışmanlık</span></li>
+                            <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="feature.standard">Uluslararası
+                                    Standartlarda Hizmet</span></li>
+                            <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="feature.delivery">Zamanında
+                                    Teslimat</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="services.title">Hizmetlerimiz</h2>
+                    <p data-i18n="services.subtitle">Gemi ve denizcilik ihtiyaçlarınız için kapsamlı çözümler</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-tools"></i>
+                        </div>
+                        <h3 data-i18n="service.repair.title">Gemi Tamir ve Bakım</h3>
+                        <p data-i18n="service.repair.desc">Motor, güverte ve teknik ekipmanların periyodik bakımı, arıza
+                            onarımı ve yenileme işlemleri.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-anchor"></i>
+                        </div>
+                        <h3 data-i18n="service.consulting.title">Teknik Danışmanlık</h3>
+                        <p data-i18n="service.consulting.desc">Gemi inşa, satın alma süreçleri ve teknik denetimler
+                            konusunda uzman danışmanlık hizmetleri.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 data-i18n="service.tech.title">Gemi Teknolojileri</h3>
+                        <p data-i18n="service.tech.desc">Modern navigasyon sistemleri, otomasyon ve elektriksel
+                            donanımların kurulumu ve servisi.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3 data-i18n="service.parts.title">Yedek Parça Tedariği</h3>
+                        <p data-i18n="service.parts.desc">Orijinal ve sertifikalı gemi yedek parçalarının hızlı ve
+                            güvenilir tedariği.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2 data-i18n="cta.title">Projeniz için profesyonel desteğe mi ihtiyacınız var?</h2>
+                <p data-i18n="cta.desc">Bizimle iletişime geçin, size en uygun çözümleri sunalım.</p>
+                <a href="#contact" class="btn btn-primary" data-i18n="cta.btn">Teklif Alın</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="contact.title">İletişim</h2>
+                    <p data-i18n="contact.subtitle">Bize ulaşın</p>
+                </div>
+                <div class="contact-wrapper" style="justify-content: center;">
+                    <div class="contact-info" style="flex: 0 1 auto; min-width: 300px;">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4 data-i18n="contact.address.title">Adres</h4>
+                                <p data-i18n="contact.address.desc">Evliya Çelebi Mahallesi Genç Osman Caddesi, Ebe Sk.
+                                    ÇaKa İş Hanı No:3, 34944
+                                    Tuzla/İstanbul</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4 data-i18n="contact.phone.title">Telefon</h4>
+                                <p>+90 532 205 42 26</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4 data-i18n="contact.email.title">E-posta</h4>
+                                <p>mustafaege@kzyegemarine.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>KZY EGE <span>MARINE</span></h3>
+                    <p data-i18n="footer.desc">Denizcilikte güven ve kalitenin adresi.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.links.title">Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="nav.home">Ana Sayfa</a></li>
+                        <li><a href="#about" data-i18n="nav.about">Hakkımızda</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Hizmetlerimiz</a></li>
+                        <li><a href="products.html" data-i18n="nav.products">Ürünlerimiz</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4 data-i18n="footer.follow.title">Bizi Takip Edin</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2024 KZY Ege Marine. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
