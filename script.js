@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         function openLightbox(index) {
             currentIndex = index;
             // Use encodeURIComponent to handle spaces and special chars in filenames
-            lightboxImg.src = `urunler/${encodeURIComponent(productImages[index])}`;
+            lightboxImg.src = `${encodeURIComponent(productImages[index])}`;
             lightbox.classList.add('active');
             document.body.style.overflow = 'hidden'; // Prevent scrolling
         }
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Fade out effect
             lightboxImg.style.opacity = '0';
             setTimeout(() => {
-                lightboxImg.src = `urunler/${encodeURIComponent(productImages[currentIndex])}`;
+                lightboxImg.src = `${encodeURIComponent(productImages[currentIndex])}`;
                 lightboxImg.style.opacity = '1';
             }, 200);
         }
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentIndex = (currentIndex - 1 + productImages.length) % productImages.length;
             lightboxImg.style.opacity = '0';
             setTimeout(() => {
-                lightboxImg.src = `urunler/${encodeURIComponent(productImages[currentIndex])}`;
+                lightboxImg.src = `${encodeURIComponent(productImages[currentIndex])}`;
                 lightboxImg.style.opacity = '1';
             }, 200);
         }
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = document.createElement('div');
             item.className = 'gallery-item';
             // encode URI for the src attribute
-            const imageUrl = `urunler/${encodeURIComponent(image)}`;
+            const imageUrl = `${encodeURIComponent(image)}`;
 
             item.innerHTML = `
                 <img src="${imageUrl}" alt="KZY Ege Marine" loading="lazy">
